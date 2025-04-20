@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Top banner */
+  .header {
+    background: linear-gradient(90deg, #0a2e52 70%, #003366 30%);
+    padding: 20px 40px;
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+  }
+  
+  .content {
+    display: flex;
+    padding: 30px 40px;
+  }
+  
+  .left {
+    width: 30%;
+    padding-right: 30px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .right {
+    width: 70%;
+    padding-left: 30px;
+  }
+  
+  h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .contact p,
+  .education p,
+  .skills ul {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .skills ul li {
+    margin-bottom: 5px;
+  }
+  
+  .profile {
+    border-left: 5px solid #003366;
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+  
+  .subheading {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #0a2e52;
+  }
+  
+  .footer {
+    height: 20px;
+    background-color: #0a2e52;
+  }
+  
